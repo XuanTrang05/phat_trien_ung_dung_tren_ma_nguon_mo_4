@@ -92,3 +92,35 @@ bài tự động đăng trên wp:
 
 <img width="750" height="817" alt="image" src="https://github.com/user-attachments/assets/4f7c0cec-292f-4973-9eb0-1534189cdb18" />
 
+
+
+## BÀI LÀM
+- sửa docker-compose.yml (QUAN TRỌNG NHẤT)
+Mở file:
+cd ~/wordpress-lab
+nano docker-compose.yml
+- THÊM 2 SERVICE: n8n + cloudflared
+<img width="761" height="940" alt="image" src="https://github.com/user-attachments/assets/a3e9ad16-b027-4844-a7ef-f6a3901d37e4" />
+
+- SAU KHI SỬA XONG
+> - Chạy lại:
+docker compose down
+docker compose up -d
+<img width="1655" height="733" alt="image" src="https://github.com/user-attachments/assets/15a6a919-68ae-4ba8-a338-e46f3c5ec316" />
+
+
+- TRUY CẬP CÁC SERVICE
+1. WordPress
+- https://wp.hoangthixuantrang.id.vn/wp-admin
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3366a8ea-1aad-4829-9706-ff67f83f3580" />
+
+-  https://wp.hoangthixuantrang.id.vn/
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/451a7639-d293-4698-83e9-1cab4d37ef11" />
+
+2. phpMyAdmin
+http://localhost:8081
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68630c12-b9c1-4aac-acc4-7918c93fdab8" />
+
+3. n8n
+http://localhost:5678
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d94e83b7-e633-4a5e-af22-999911ef746d" />
