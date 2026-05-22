@@ -124,3 +124,38 @@ http://localhost:8081
 3. n8n
 http://localhost:5678
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d94e83b7-e633-4a5e-af22-999911ef746d" />
+
+
+- Cấu hình cloudflare tunnel add router để public WordPress, phpMyAdmin, n8n
+  > - sửa file:
+nano ~/.cloudflared/config.yml
+<img width="746" height="908" alt="image" src="https://github.com/user-attachments/assets/be9664ff-17a9-4e3c-9a2d-7bf79d2426b7" />
+
+- TẠO CLOUDFLARE TUNNEL
+- <img width="883" height="237" alt="image" src="https://github.com/user-attachments/assets/e662028b-2a17-4ded-96f8-d024c2af6d8c" />
+
+- GẮN DNS VÀO TUNNEL
+  <img width="1466" height="208" alt="image" src="https://github.com/user-attachments/assets/7cd3ed32-5100-466e-8f8f-0bd1def27d79" />
+
+- sau đó chạy lại file docker
+- <img width="1463" height="717" alt="image" src="https://github.com/user-attachments/assets/5e63f0f7-f44c-44db-ac02-3f642b8cc9c6" />
+
+- CẤU HÌNH ingress
+<img width="746" height="908" alt="image" src="https://github.com/user-attachments/assets/be9664ff-17a9-4e3c-9a2d-7bf79d2426b7" />
+
+- TEST NỘI BỘ DOCKER
+<img width="1460" height="339" alt="image" src="https://github.com/user-attachments/assets/0ee58019-e237-4a2d-b978-50a4596b2796" />
+- TEST CHUẨN DOCKER NETWORK
+- chạy alpine container trong cùng network: docker run --network wordpress-lab_default alpine
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2deb4012-64cc-4a9c-8b61-9983ae39c3c2" />
+
+- Public HTTPS access OK
+- N8N : https://n8n.hoangthixuantrang.id.vn
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0389b98-2e93-4b31-8d6a-5528388cee99" />
+
+- phpMyAdmin : https://db.hoangthixuantrang.id.vn/
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebd2f133-b55e-408a-87a7-d6b9580ead47" />
+
+
+
+
