@@ -156,6 +156,37 @@ nano ~/.cloudflared/config.yml
 - phpMyAdmin : https://db.hoangthixuantrang.id.vn/
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebd2f133-b55e-408a-87a7-d6b9580ead47" />
 
+------------------------------
+
+- Thêm node Telegram
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a10fb08-0094-4d6b-a0e4-3256a3d37452" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa2187d9-f5a7-466f-9e09-d8154af7fcb4" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ab52a9a-a873-4b16-a4c9-054f06fccff5" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b74cd49-b362-48b8-abd2-aaea3aea9969" />
 
 
 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c27eb8d1-4fec-446f-85c3-6618f83ccbfa" />
+
+Thêm node Code (JavaScript)
+
+Bấm dấu + bên phải Message a model
+Tìm: Code
+Chọn: Code in JavaScript
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/66da2796-6342-47d1-b7d0-182e4ba3d5ba" />
+
+
+Thêm node WordPress
+
+Bấm dấu + bên phải node Code
+
+Tìm :WordPress
+Chọn  :Create a Post
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5336e885-6d30-4a3a-8cf9-7d834e43bb53" />
