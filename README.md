@@ -190,3 +190,14 @@ Bấm dấu + bên phải node Code
 Tìm :WordPress
 Chọn  :Create a Post
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5336e885-6d30-4a3a-8cf9-7d834e43bb53" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01d15b5c-a6f0-4318-9a76-493bc151747e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5ef1efe-9b85-4a6a-8cce-3f9e8f715339" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85bc1532-3793-4943-9383-9ae5a4541f86" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd8174c3-4628-4c22-af4e-72b7511ceacc" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08ef582e-7264-4b3e-bcd9-c501a59a5cb9" />
