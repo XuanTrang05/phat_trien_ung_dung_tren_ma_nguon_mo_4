@@ -183,12 +183,10 @@ Chọn: Code in JavaScript
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/66da2796-6342-47d1-b7d0-182e4ba3d5ba" />
 
 
-Thêm node WordPress
-
-Bấm dấu + bên phải node Code
-
-Tìm :WordPress
-Chọn  :Create a Post
+- Thêm node WordPress
+  > - Bấm dấu + bên phải node Code
+      > - Tìm :WordPress
+  >     - Chọn  :Create a Post
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5336e885-6d30-4a3a-8cf9-7d834e43bb53" />
 
 
