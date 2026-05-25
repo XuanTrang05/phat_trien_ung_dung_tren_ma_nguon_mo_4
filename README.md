@@ -234,3 +234,23 @@ Ignore SSL Issues (Insecure): TURN ON
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd8174c3-4628-4c22-af4e-72b7511ceacc" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08ef582e-7264-4b3e-bcd9-c501a59a5cb9" />
+
+## Nhận xét thành quả đạt được
+
+Sau khi hoàn thành bài thực hành, em đã xây dựng thành công hệ thống WordPress chạy trên Docker với các dịch vụ MariaDB, phpMyAdmin, Cloudflare Tunnel và n8n. Các container được quản lý tập trung bằng Docker Compose, giúp việc triển khai và vận hành trở nên thuận tiện.
+
+Hệ thống Cloudflare Tunnel hoạt động ổn định, cho phép công khai các dịch vụ WordPress, phpMyAdmin và n8n ra Internet thông qua các subdomain riêng mà không cần mở cổng trên router. Cơ sở dữ liệu MariaDB được WordPress tự động khởi tạo và quản lý thành công.
+
+Đặc biệt, em đã cấu hình thành công workflow tự động hóa trên n8n. Khi người dùng gửi nội dung đến Telegram Bot, dữ liệu sẽ được chuyển đến Google Gemini để sinh nội dung bài viết, sau đó n8n xử lý dữ liệu và tự động đăng bài lên WordPress. Toàn bộ quy trình từ Telegram → Gemini AI → n8n → WordPress được thực hiện tự động mà không cần thao tác thủ công.
+
+Thông qua bài thực hành này, em đã củng cố được kiến thức về:
+
+Docker và Docker Compose.
+Quản trị dịch vụ trên Ubuntu Linux.
+Cloudflare Tunnel và Reverse Proxy.
+WordPress và MariaDB.
+Tích hợp API của Telegram và Google Gemini.
+Xây dựng hệ thống tự động hóa bằng n8n.
+Quy trình triển khai ứng dụng mã nguồn mở trên môi trường thực tế.
+
+Kết quả đạt được cho thấy các công nghệ mã nguồn mở có thể kết hợp hiệu quả để xây dựng một hệ thống quản trị nội dung và tự động hóa hiện đại, dễ triển khai và có khả năng mở rộng cao. Đây là kinh nghiệm thực tế hữu ích cho việc học tập và phát triển các dự án sau này.
