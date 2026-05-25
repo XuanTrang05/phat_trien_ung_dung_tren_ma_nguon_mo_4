@@ -175,7 +175,20 @@ Cần tạo project mới, sẽ lấy được API KEY
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b74cd49-b362-48b8-abd2-aaea3aea9969" />
 
 
+- Add (nối tiếp vào sau node Message a model) node: Code in JavaScript
 
+Code js ở dạng này, có thể phải thay đổi tuỳ theo json AI trả về.
+// 1. lấy dữ liệu gốc
+const rawText = $input.first().json.content.parts[0].text;
+
+// 2. Chuyển đổi chuỗi (đã được bọc JSON) thành Object trong JavaScript
+const cleanData = JSON.parse(rawText);
+
+// 3. Trả về kết quả định dạng lại gọn gàng cho n8n sử dụng
+return {
+ title: cleanData.post_title,
+ content: cleanData.post_content
+};  
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c27eb8d1-4fec-446f-85c3-6618f83ccbfa" />
 
@@ -191,6 +204,11 @@ Chọn: Code in JavaScript
   > - Bấm dấu + bên phải node Code
       > - Tìm :WordPress
   >     - Chọn  :Create a Post
+  Set up Credential: vào wp tại url: https://wp.nguyenthilinhk58.id.vn/wp-admin => vào mục Tài Khoản => chọn user đã tạo lúc setup - wordpress => Mật khẩu ứng dụng => Nhập n8n và bấm "Thêm mật khẩu ứng dụng" => copy chuỗi 24 kí tự : Đây là mật khẩu ứng dụng => paste vào mục Password của n8n Credential
+- Wordpress URL: điền giá trị https://wp.hoangthixuantrang.id.vn/ (giá trị này cũng khai báo trong biến môi trường WEBHOOK_URL của n8n)
+
+Ignore SSL Issues (Insecure): TURN ON
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5336e885-6d30-4a3a-8cf9-7d834e43bb53" />
 
 
