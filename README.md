@@ -210,9 +210,10 @@ Chọn: Code in JavaScript
 Ignore SSL Issues (Insecure): TURN ON
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5336e885-6d30-4a3a-8cf9-7d834e43bb53" />
-
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01d15b5c-a6f0-4318-9a76-493bc151747e" />
+# KẾT QUẢ BÀI LÀM
+- từ điện thoại, chat với telegram bot
+- nội dung chát được tự động gửi tới node Telegram trigger => Gửi tới Google Gemini Message a model (bản chất là gửi Prompt) : Nhận về json kết quả của Prompt => Gửi sang node Code in JavaScript để tách tiêu đề và nội dung => gửi đến node WordPress để Create a Post(đăng bài) với tiêu đề và nội dung từ node trước gửi sang.
+<img width="590" height="1280" alt="image" src="https://github.com/user-attachments/assets/584139e1-dd1c-4c8b-ab58-49390e79e6a8" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5ef1efe-9b85-4a6a-8cce-3f9e8f715339" />
 
