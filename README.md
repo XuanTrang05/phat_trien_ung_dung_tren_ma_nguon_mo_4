@@ -157,9 +157,22 @@ nano ~/.cloudflared/config.yml
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ebd2f133-b55e-408a-87a7-d6b9580ead47" />
 
 ------------------------------
+- truy cập n8n để cấu hình
+-  https://n8n.hoangthixuantrang.id.vn
+-  tạo tài khoản admin : nhớ điền đúng email
+-  Send me a Licence key, bước này điền đủ thông tin, làm chậm sẽ thấy mục gửi License key về mail (n8n sẽ gửi email KEY cho dùng), check email để lấy KEY
+<img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/6022e93b-4793-459f-89da-1d3e9bd879e8" />
+- sau đó Activate License key: vào trang chủ => SETTING (góc dưới trái) => Usage and plan => Enter activation key: paste key từ email vào đây => Activate => sẽ nhận đc thông báo (góc dưới phải) Your Registered Community Edition has been successfully activated.
 
 - Thêm node Telegram
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a10fb08-0094-4d6b-a0e4-3256a3d37452" />
+Access Token thì lấy ở Telegram qua việc chát với @BotFather
+<img width="590" height="1280" alt="image" src="https://github.com/user-attachments/assets/90ecbdd2-d353-463b-aba2-ce55f1470054" />
+
+- Cần chat với bot @BotFather để đẻ ra bot mới của riêng mình. bot này sẽ là nơi nhận lệnh (promt) để AI sinh html => n8n sẽ dùng html này để đăng bài lên wp
+- <img width="1179" height="725" alt="image" src="https://github.com/user-attachments/assets/e03b5e9a-eac6-4499-8973-416cfcca92a5" />
+
+- Sau khi tạo bot mới cần copy lấy Token, và chát lần đầu với bot mới này, nội dung bất kỳ (bước này quan trọng!)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a10fb08-0094-4d6b-a0e4-3256a3d37452" />
 
 - Lấy API KEY tại trang: https://aistudio.google.com => https://aistudio.google.com/api-keys
 
@@ -213,9 +226,8 @@ Ignore SSL Issues (Insecure): TURN ON
 # KẾT QUẢ BÀI LÀM
 - từ điện thoại, chat với telegram bot
 - nội dung chát được tự động gửi tới node Telegram trigger => Gửi tới Google Gemini Message a model (bản chất là gửi Prompt) : Nhận về json kết quả của Prompt => Gửi sang node Code in JavaScript để tách tiêu đề và nội dung => gửi đến node WordPress để Create a Post(đăng bài) với tiêu đề và nội dung từ node trước gửi sang.
-<img width="590" height="1280" alt="image" src="https://github.com/user-attachments/assets/584139e1-dd1c-4c8b-ab58-49390e79e6a8" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5ef1efe-9b85-4a6a-8cce-3f9e8f715339" />
+<img width="590" height="1280" alt="image" src="https://github.com/user-attachments/assets/584139e1-dd1c-4c8b-ab58-49390e79e6a8" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85bc1532-3793-4943-9383-9ae5a4541f86" />
 
