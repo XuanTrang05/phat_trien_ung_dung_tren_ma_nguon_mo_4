@@ -161,9 +161,13 @@ nano ~/.cloudflared/config.yml
 - Thêm node Telegram
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8a10fb08-0094-4d6b-a0e4-3256a3d37452" />
 
+- Lấy API KEY tại trang: https://aistudio.google.com => https://aistudio.google.com/api-keys
+
+Cần tạo project mới, sẽ lấy được API KEY
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa2187d9-f5a7-466f-9e09-d8154af7fcb4" />
 
+- Nhập API Key lên giao diện n8n
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ab52a9a-a873-4b16-a4c9-054f06fccff5" />
 
